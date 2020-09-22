@@ -1,0 +1,21 @@
+Auto usate
+
+ID                       Numero incrementale                          *PRIMARY KEY, UNIQUE, AI*
+Marca                    stringa                   varchar(20)        *NOTNULL*
+Modello                  stringa                   varchar(20)        *NOTNULL*
+Allestimento             stringa                   varchar(15)        *NOTNULL*
+Optional                 stringa                   varchar(150)
+Targa                    stringa                   varchar(7)         *NOTNULL, UNIQUE*
+Anno immatricolazione    data                      year               *NOTNULL*
+Km                       numero                    mediumint          *NOTNULL*
+Prezzo                   numero                    float(9,2)         *NOTNULL*
+Alimentazione            stringa                   varchar(10)        *NOTNULL*
+Cilindrata               numero                    smallint           *NOTNULL*
+Cv                       numero                    tinyint?           *NOTNULL*
+Kw                       numero                    tinyint            *NOTNULL*
+Euro                     numero                    tinyint
+Cambio manuale           booleano                  tinyint            *DEFAULT(1)*
+Tipo                     stringa                   varchar(20)
+Porte3                   booleano                  tinyint            *DEFAULT(1)*
+Posti                    numero                    tinyint
+
